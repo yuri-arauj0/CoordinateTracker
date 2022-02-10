@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- BEGIN OF MAP -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <!-- END OF MAP -->
+
+        <!-- JS -->
+        <script src="index.js"defer></script>
+
+        <title>IP Tracker Tool</title>
+    </head>
+
+    <body>
+        <div id="header">
+            <header>
+                <p id="title">IP Address Tracker</p>
+                
+                <form action="">
+                    <!-- <label for="ip-search"></label> -->
+                    <input type="text" placeholder="Search for any IP adress or domain" name="ip-search" id="search">
+                </form>
+                
+                
+            </header>
+        </div>
+
+        <div id="information">     
+            <div class="info-table">
+                <p class="label">IP ADDRESS</p>
+                <p class="info">192.168.0.106</p>
+            </div>
+            
+            <div class="info-table">
+                <p class="label">LOCATION</p>
+                <p class="info">Luzerna, SC</p>
+            </div>
+
+            <div class="info-table">
+                <p class="label">TIMEZONE</p>
+                <p class="info">GMT-3</p>
+            </div>
+
+            <div class="info-table1">
+                <p class="label">ISP</p>
+                <p class="info">SpaceX</p>
+                <p class="info">Starlink</p>
+            </div>
+        </div>
+
+        <!-- <div id="map" style="height: 600px;"></div> -->
+
+    </body>
+</html>
